@@ -1,1 +1,3 @@
-document.getElementById("year").textContent = new Date().getFullYear();
+document.getElementById("scanBtn").addEventListener("click", () => {
+  alert("Scanning boshlanmoqda...");
+});
